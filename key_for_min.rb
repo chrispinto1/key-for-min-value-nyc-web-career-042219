@@ -5,8 +5,7 @@ def key_for_min_value(name_hash)
   if name_hash.size == 0
     return nil
   end
-  name_hash.collect do |key , age|
-    puts "#"
+  name_hash.collect do |key , age| 
     if age < age +1 && age < age -1 
          return "#{key} "
       end
