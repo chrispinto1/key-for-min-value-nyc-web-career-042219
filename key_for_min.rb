@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
   name_hash.collect do |key , age|
     puts 
     if age < age +1 && age < age -1 
-         return key[age]
+         return "#{key}:"
       end
   end
 end
